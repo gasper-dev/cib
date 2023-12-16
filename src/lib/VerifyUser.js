@@ -7,7 +7,7 @@ export async function VerifyUser(cookie) {
   const response = await fetch("https://full-api.vercel.app/user/verifyuser", {
     cache: "no-store",
     headers: {
-      Origin: "https://cib-web.vercel.app",
+      Origin: "https://cib-gasper-dev.vercel.app",
       "x-access-token": cookie,
     },
   });
